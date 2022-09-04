@@ -69,7 +69,7 @@ export default function Card({ postHashHex }) {
             {timeDifference(Date.parse(timestamp))}
           </p> */}
           <div className={` mt-4 justify-end`}>
-            {`Fundraising Goal: ${postData.PostExtraData.FundraisingGoal}`}
+            {`Fundraising Goal: ${postData.PostExtraData.FundraisingGoal} $DESO`}
           </div>
         </div>
       </div>  )}
